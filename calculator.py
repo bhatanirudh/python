@@ -12,8 +12,8 @@ def div(n1,n2):
 flag=0
 while flag==0:
 
- a=int(input("Enter first number"))
- b=int(input("Enter second number"))
+ a=float(input("Enter first number"))
+ b=float(input("Enter second number"))
  choice=input("Enter operation +, - , / , X ")
  my_dict={
   "+":add,
